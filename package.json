@@ -17,7 +17,8 @@
   },
   "homepage": "https://github.com/GeorgyKomkov/frontend-project-44#readme",
   "dependencies": {
-    "make": "^0.0.0"
+    "make": "^0.0.0",
+    "readline-sync": "^1.4.10"
   },
   "type": "module",
   "bin": {
