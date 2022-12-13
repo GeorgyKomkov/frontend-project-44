@@ -2,7 +2,7 @@
 import { getRandomNumber, getRandomIndex } from "../randomValues.js";
 import run from "../index.js";
 
-const description = "What is the result of the expression?";
+const description = `What is the result of the expression?`;
 const operators = ["+", "-", "*"];
 const minRange = 0;
 const maxRange = 10;
