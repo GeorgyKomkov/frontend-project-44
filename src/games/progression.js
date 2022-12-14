@@ -18,8 +18,8 @@ const generateRound = () => {
   const progression = getProgtession(length, startProg, stepProg);
   const indexHiddenNumber = getRandomIndex(progression);
   const correctAnswer = progression[indexHiddenNumber].toString();
-  progression[indexHiddenNumber] = `..`;
-  const question = progression.join(" ");
+  progression[indexHiddenNumber] = '..';
+  const question = progression.join('');
   return [question, correctAnswer];
 };
 
