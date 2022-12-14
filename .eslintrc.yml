@@ -7,9 +7,11 @@ overrides: []
 parserOptions:
   ecmaVersion: latest
   sourceType: module
-# rules: {
+ rules: {
+  inebreak-style:  ["error", "windows"]
   
 #   "import/extensions": "off",
 #   "no-console": "off"
  
-# }
+}
+ inebreak-style:  ["error", "windows"]
