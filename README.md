@@ -3,7 +3,7 @@
 ### Codeclimate
 [![Maintainability](https://api.codeclimate.com/v1/badges/d9da70fb7c11dbb864d2/maintainability)](https://codeclimate.com/github/GeorgyKomkov/frontend-project-44/maintainability)
 
-
+<!-- 
  Установка
 
 npm i
@@ -40,8 +40,8 @@ npm link
 
 
  Описание игры "Простое ли число?" и пример ее запуска с демонстрацией победы и поражения:
- 
+
 Игроку показывается случайное число. И ему нужно ответить yes, если число простое, или no — если не простое.
 
 [![asciicast](https://asciinema.org/a/m3B99IprZq55SOlJt4IwOodj1.png)](https://asciinema.org/a/m3B99IprZq55SOlJt4IwOodj1)
-  
+   -->
