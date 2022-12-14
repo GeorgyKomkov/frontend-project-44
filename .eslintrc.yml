@@ -8,10 +8,10 @@ parserOptions:
   ecmaVersion: latest
   sourceType: module
  rules: {
-  inebreak-style:  ["error", "windows"]
+  inebreak-style:  ["error", "windows"],
   
-#   "import/extensions": "off",
-#   "no-console": "off"
+  "import/extensions": "off",
+  "no-console": "off"
  
 }
- inebreak-style:  ["error", "windows"]
+ 
