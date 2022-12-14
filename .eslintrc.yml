@@ -1,17 +1,18 @@
-@@ -0,0 +1,13 @@
 env:
-  browser: true
-   node: true
-extends: airbnb-base
-overrides: []
+  es2020: true
+extends:
+  - airbnb-base
 parserOptions:
-  ecmaVersion: latest
+  ecmaVersion: 11
   sourceType: module
- rules: {
-  inebreak-style:  ["error", "windows"],
-  
-  "import/extensions": "off",
-  "no-console": "off"
- 
+rules: {
+  linebreak-style:
+   - error
+   - windows
+  ,
+  no-console: 0,
+  import/extensions:  
+    - error
+    - ignorePackages
+    - js: always
 }
- 

@@ -41,6 +41,7 @@
  ### Описание и пример запуска игры "НОД". Демонстрация победы и поражения.
 
  brain-gcd # запуск игры
+ 
  Игроку показывается два случайных числа. Игрок должен вычислить и ввести наибольший общий делитель этих чисел.
 
  [![asciicast](https://asciinema.org/a/Ue8xdIN5QmRoZWXqMdSrvoXii.png)]( https://asciinema.org/a/Ue8xdIN5QmRoZWXqMdSrvoXii)
