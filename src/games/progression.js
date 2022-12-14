@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 import { getRandomNumber, getRandomIndex } from '../randomValues.js';
+
 import run from '../index.js';
 
 const description = 'What number is missing in the progression?';
@@ -19,7 +20,7 @@ const generateRound = () => {
   const indexHiddenNumber = getRandomIndex(progression);
   const correctAnswer = progression[indexHiddenNumber].toString();
   progression[indexHiddenNumber] = '..';
-  const question = progression.join('');
+  const question = progression.join(' ');
   return [question, correctAnswer];
 };
 
