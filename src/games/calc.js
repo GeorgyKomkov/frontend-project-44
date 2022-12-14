@@ -1,16 +1,16 @@
 #!/usr/bin/env node
-import { getRandomNumber, getRandomIndex } from "../randomValues.js";
-import run from "../index.js";
+import { getRandomNumber, getRandomIndex } from '../randomValues.js';
+import run from '../index.js';
 
-const description = `What is the result of the expression?`;
-const operators = ["+", "-", "*"];
+const description = 'What is the result of the expression?';
+const operators = ['+', '-', '*'];
 
 const calculate = (num1, num2, operator) => {
-  if (operator === "+") {
+  if (operator === '+') {
     return num1 + num2;
-  } else if (operator === "-") {
+  } else if (operator === '-') {
     return num1 - num2;
-  } else if (operator === "*") {
+  } else if (operator === '*') {
     return num1 * num2;
   }
 };
