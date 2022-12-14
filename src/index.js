@@ -6,7 +6,7 @@ export default (description, generateRound) => {
   console.log(`Hello, ${playerName}!`);
   console.log(description);
 
-  for (let i = 0; i <= 2; i  += 1) {
+  for (let i = 0; i <= 2; i = i + 1) {
     const [question, correctAnswer] = generateRound();
     console.log(`Question: ${question}`);
     const playerAnswer = readlineSync.question('Your answer: ');
