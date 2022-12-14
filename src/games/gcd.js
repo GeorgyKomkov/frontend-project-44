@@ -1,8 +1,8 @@
 #!/usr/bin/env node
-import { getRandomNumber } from "../randomValues.js";
-import run from "../index.js";
+import { getRandomNumber } from '../randomValues.js';
+import run from '../index.js';
 
-const description = `Find the greatest common divisor of given numbers.`;
+const description = 'Find the greatest common divisor of given numbers';
 const gcd = (a, b) => {
   if (b === 0) {
     return a;

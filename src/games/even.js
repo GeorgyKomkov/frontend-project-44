@@ -1,8 +1,8 @@
 #!/usr/bin/env node
-import { getRandomNumber } from "../randomValues.js";
-import run from "../index.js";
+import { getRandomNumber } from '../randomValues.js';
+import run from '../index.js';
 
-const description = `Answer "yes" if the number is even, otherwise answer "no".`;
+const description = 'Answer "yes" if the number is even, otherwise answer "no".';
 const minNumber = 0;
 const maxNumber = 100;
 
@@ -18,7 +18,7 @@ const generateRound = () => {
   //   correctAnswer = `no`
   // }
 
-  const correctAnswer = isEven(number) ? "yes" : "no";
+  const correctAnswer = isEven(number) ? 'yes' : 'no';
 
   return [question, correctAnswer];
 };

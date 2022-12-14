@@ -1,8 +1,8 @@
 #!/usr/bin/env node
-import { getRandomNumber } from "../randomValues.js";
-import run from "../index.js";
+import { getRandomNumber } from '../randomValues.js';
+import run from '../index.js';
 
-const description = `Answer "yes" if given number is prime. Otherwise answer "no".`;
+const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 const prime = (number) => {
   const a = Math.sqrt(number);
@@ -20,7 +20,7 @@ const prime = (number) => {
 const generateRound = () => {
   const number = getRandomNumber(0, 100);
   const question = number.toString();
-  const correctAnswer = prime(number) ? "yes" : "no";
+  const correctAnswer = prime(number) ? 'yes' : 'no';
   return [question, correctAnswer];
 };
 
