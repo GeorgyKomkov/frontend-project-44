@@ -11,7 +11,9 @@ const calculate = (num1, num2, operator) => {
     return num1 - num2;
   } else if (operator === '*') {
     return num1 * num2;
-  }
+  }else {
+    return `error sorry ${playerName}`
+  };
 };
 const generateRound = () => {
   const number1 = getRandomNumber(0, 10);
