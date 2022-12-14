@@ -13,7 +13,7 @@ npm link
 Игроку показывается случайное выражение, которое нужно вычислить и записать правильный ответ.
 ### Пример запуска игры "Калькулятор". Демонстрация победы и поражения.
 
-brain-calc
+ 
 
 [![asciicast](https://asciinema.org/a/8reDZZcmUBw0OfkAMT8T3rbK7.png)]( https://asciinema.org/a/BBNlT8ZTkTFJQKGdp7vqvzzB8)
 
@@ -22,8 +22,7 @@ brain-calc
 ### Описание игры "Проверка на четность":
 Игроку показывается случайное число. Нужно ответить yes, если число чётное, или no — если нечётное.
 ### Пример запуска игры "Проверка на четность". Демонстрация победы и поражения.
-
-brain-even
+ 
 
 [![asciicast](https://asciinema.org/a/gUVUIkbHHmiGZOR4g2kYv830g.png)]( https://asciinema.org/a/gUVUIkbHHmiGZOR4g2kYv830g)
 
@@ -33,7 +32,7 @@ brain-even
 Игроку показывается два случайных числа, например, 25 50. Игрок должен вычислить и ввести наибольший общий делитель этих чисел.
 ### Пример запуска игры "НОД". Демонстрация победы и поражения.
 
-brain-gcd
+ 
 
 [![asciicast](https://asciinema.org/a/Ue8xdIN5QmRoZWXqMdSrvoXii.png)]( https://asciinema.org/a/Ue8xdIN5QmRoZWXqMdSrvoXii)
 
@@ -41,8 +40,7 @@ brain-gcd
 Игроку показывается ряд чисел, образующий арифметическую прогрессию. Случайное число из этой прогрессии показывается двумя точками. Игрок должен определить это число.
 ### Пример запуска игры "Арифметическая прогрессия". Демонстрация победы и поражения.
 
-brain-progression
-
+ 
 [![asciicast](https://asciinema.org/a/qaHGOpU3DL0LiVkgXHSze1zE0.png)](https://asciinema.org/a/qaHGOpU3DL0LiVkgXHSze1zE0)
 
 
@@ -50,7 +48,7 @@ brain-progression
 Игроку показывается случайное число. И ему нужно ответить yes, если число простое, или no — если не простое.
 ### Пример запуска игры "Простое ли число?". Демонстрация победы и поражения.
 
-brain-prime
+ 
 
 [![asciicast](https://asciinema.org/a/m3B99IprZq55SOlJt4IwOodj1.png)](https://asciinema.org/a/m3B99IprZq55SOlJt4IwOodj1)
   
