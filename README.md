@@ -5,7 +5,7 @@
  
 
 <!-- аскинема для even -->
-[![asciicast](https://asciinema.org/a/14.png)](https://asciinema.org/a/14)
+[![asciicast](https://asciinema.org/a/14.png)]( https://asciinema.org/a/BBNlT8ZTkTFJQKGdp7vqvzzB8)
 https://asciinema.org/a/8reDZZcmUBw0OfkAMT8T3rbK7 
 <!-- аскинема для calc  -->
   https://asciinema.org/a/BBNlT8ZTkTFJQKGdp7vqvzzB8
