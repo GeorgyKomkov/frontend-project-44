@@ -2,7 +2,15 @@
 [![Actions Status](https://github.com/GeorgyKomkov/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/GeorgyKomkov/frontend-project-44/actions)
 ### Codeclimate
 [![Maintainability](https://api.codeclimate.com/v1/badges/d9da70fb7c11dbb864d2/maintainability)](https://codeclimate.com/github/GeorgyKomkov/frontend-project-44/maintainability)
- 
+ ### Проект "Игры разума"
+ «Игры разума» — набор из пяти консольных игр, построенных по принципу популярных мобильных приложений для прокачки мозга. Каждая игра задает вопросы, на которые нужно дать правильные ответы. После трех правильных ответов считается, что игра пройдена. Неправильные ответы завершают игру и предлагают пройти ее заново. Игры:
+
+Калькулятор. Арифметические выражения, которые необходимо вычислить.
+Прогрессия. Поиск пропущенных чисел в последовательности чисел.
+Определение четного числа.
+Определение наибольшего общего делителя.
+Определение простого числа.
+
 ### Пример запуска игры brain-calc. Демонстрация победы и поражения.
 
 [![asciicast](https://asciinema.org/a/8reDZZcmUBw0OfkAMT8T3rbK7.png)]( https://asciinema.org/a/BBNlT8ZTkTFJQKGdp7vqvzzB8)
