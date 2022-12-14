@@ -2,12 +2,12 @@
 [![Actions Status](https://github.com/GeorgyKomkov/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/GeorgyKomkov/frontend-project-44/actions)
 ### Codeclimate
 [![Maintainability](https://api.codeclimate.com/v1/badges/d9da70fb7c11dbb864d2/maintainability)](https://codeclimate.com/github/GeorgyKomkov/frontend-project-44/maintainability)
- ### Установка
+ <!-- ### Установка
 
 npm i
 
 
-npm link
+npm link -->
 
 ### Описание игры "Калькулятор"  и пример ее запуска с демонстрацией победы и поражения:
 Игроку показывается случайное выражение, которое нужно вычислить и записать правильный ответ.
