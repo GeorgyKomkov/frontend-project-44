@@ -10,6 +10,6 @@ parserOptions:
 rules: {
   "linebreak-style": 0,
   "import/extensions": "off",
-  "no-console": "off",
-  "indent": ["error", 4]
+  "no-console": "off"
+  "linebreak-style": "off"
 }
