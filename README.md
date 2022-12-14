@@ -10,10 +10,10 @@
 <!-- аскинема для calc  -->
 ### Пример запуска игры brain-even. Демонстрация победы и поражения.
 [![asciicast](https://asciinema.org/a/gUVUIkbHHmiGZOR4g2kYv830g.png)]( https://asciinema.org/a/gUVUIkbHHmiGZOR4g2kYv830g)
+### Пример запуска игры brain-gcd. Демонстрация победы и поражения.
+[![asciicast](https://asciinema.org/a/Ue8xdIN5QmRoZWXqMdSrvoXii.png)]( https://asciinema.org/a/Ue8xdIN5QmRoZWXqMdSrvoXii)
+### Пример запуска игры brain-progression. Демонстрация победы и поражения.
+[![asciicast](https://asciinema.org/a/qaHGOpU3DL0LiVkgXHSze1zE0.png)](https://asciinema.org/a/qaHGOpU3DL0LiVkgXHSze1zE0)
+### Пример запуска игры brain-prime. Демонстрация победы и поражения.
+[![asciicast](https://asciinema.org/a/m3B99IprZq55SOlJt4IwOodj1.png)](https://asciinema.org/a/m3B99IprZq55SOlJt4IwOodj1)
   
-  <!-- аскинема для gcd -->
-  https://asciinema.org/a/Ue8xdIN5QmRoZWXqMdSrvoXii
-  <!-- аксинма для progression -->
-  https://asciinema.org/a/qaHGOpU3DL0LiVkgXHSze1zE0
-  <!-- аксинема для prime -->
-  https://asciinema.org/a/m3B99IprZq55SOlJt4IwOodj1
