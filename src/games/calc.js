@@ -9,7 +9,7 @@ const calculate = (number1, number2, operator) => {
   // if (operator === '-') return number1 - number2;
   // if (operator === '*') return number1 * number2;
   // return 'Error';
-  switch (operator){
+  switch (operator) {
     case '+':
       return number1 + number2;
     case '-':
@@ -17,7 +17,7 @@ const calculate = (number1, number2, operator) => {
     case '*':
       return number1 * number2;
     default:
-      throw new Error(`There is no such operator  '${operator}'!`) 
+      throw new Error(`There is no such operator '${operator}'!`);
   }
 };
 const generateRound = () => {
