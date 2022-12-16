@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import firstQuestion from '../src/cli.js';
+import runfirstQuestion from '../src/cli.js';
 
-firstQuestion();
+runfirstQuestion();

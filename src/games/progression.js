@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { getRandomNumber, getRandomIndex } from '../randomValues.js';
+import { getRandomNumber, getRandomIndex } from '../utils.js';
 
 import run from '../index.js';
 

@@ -1,7 +1,7 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
-  "description": "[![Actions Status](https://github.com/GeorgyKomkov/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/GeorgyKomkov/frontend-project-44/actions)",
+  "description": "This project consists of 5 console games.",
   "main": "index.js",
   "bin": {
     "brain-games": "bin/brain-games.js",
@@ -18,7 +18,7 @@
     "type": "git",
     "url": "git+https://github.com/GeorgyKomkov/frontend-project-44.git"
   },
-  "author": "",
+  "author": "Georgy Komkov",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/GeorgyKomkov/frontend-project-44/issues"
