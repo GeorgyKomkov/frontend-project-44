@@ -2,13 +2,13 @@
 import { getRandomNumber, getRandomIndex } from '../utils.js';
 import run from '../index.js';
 
-const description = 'What number is missing in the progression?',
-  minLength = 5,
-  maxLength = 15,
-  minRange = 1,
-  maxRange = 100,
-  minStep = 1,
-  maxStep = 10;
+const description = 'What number is missing in the progression?';
+const minLength = 5;
+const maxLength = 15;
+const minRange = 1;
+const maxRange = 100;
+const minStep = 1;
+const maxStep = 10;
 
 const getProgression = (length, start, step) => {
   const progression = [];
