@@ -1,22 +1,28 @@
 #!/usr/bin/env node
 import { getRandomNumber, getRandomIndex } from '../utils.js';
-
 import run from '../index.js';
 
-const description = 'What number is missing in the progression?';
-const getProgtession = (length, startProg, stepProg) => {
+const description = 'What number is missing in the progression?',
+  minLength = 5,
+  maxLength = 15,
+  minRange = 1,
+  maxRange = 100,
+  minStep = 1,
+  maxStep = 10;
+
+const getProgression = (length, start, step) => {
   const progression = [];
-  for (let i = startProg; progression.length < length; i += stepProg) {
+  for (let i = start; progression.length < length; i += step) {
     progression.push(i);
   }
   return progression;
 };
 
 const generateRound = () => {
-  const length = getRandomNumber(5, 15);
-  const startProg = getRandomNumber(1, 100);
-  const stepProg = getRandomNumber(1, 10);
-  const progression = getProgtession(length, startProg, stepProg);
+  const length = getRandomNumber(minLength, maxLength);
+  const start = getRandomNumber(minRange, maxRange);
+  const step = getRandomNumber(minStep, maxStep);
+  const progression = getProgression(length, start, step);
   const indexHiddenNumber = getRandomIndex(progression);
   const correctAnswer = progression[indexHiddenNumber].toString();
   progression[indexHiddenNumber] = '..';
